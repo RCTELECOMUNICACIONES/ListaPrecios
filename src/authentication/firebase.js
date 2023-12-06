@@ -5,13 +5,13 @@
     
 
     const firebaseConfig = {
-      apiKey: "AIzaSyDS7IHXKdKhDQW-4H_ndq2xaA37OhIK6lo",
-      authDomain: "tc-page-umia.firebaseapp.com",
-      projectId: "tc-page-umia",
-      storageBucket: "tc-page-umia.appspot.com",
-      messagingSenderId: "477755579311",
-      appId: "1:477755579311:web:db798633ba8149b947ed5a",
-      measurementId: "G-W0HW8YEHFD",
+      apiKey: "AIzaSyAicJixor7nXIThXMkEdGpeGArr7uZ5dws",
+      authDomain: "listaprecios-9af1d.firebaseapp.com",
+      projectId: "listaprecios-9af1d",
+      storageBucket: "listaprecios-9af1d.appspot.com",
+      messagingSenderId: "1011008839397",
+      appId: "1:1011008839397:web:d8d1caa6c88ec9dc4d7e0c",
+      //measurementId: "G-W0HW8YEHFD"
     };
 
     // Initialize Firebase

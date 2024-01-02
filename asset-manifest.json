@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ListaPrecios/static/css/main.ca48c9b8.css",
-    "main.js": "/ListaPrecios/static/js/main.95c40ed6.js",
-    "static/media/loading.gif": "/ListaPrecios/static/media/loading.21ec2ae4e50c8690d3f5.gif",
-    "static/media/newFondo.webp": "/ListaPrecios/static/media/newFondo.201b23b46b96324a9996.webp",
-    "static/media/promo.png": "/ListaPrecios/static/media/promo.2b83e5468754bd6efb9b.png",
+    "main.css": "/ListaPrecios/static/css/main.3a945a0b.css",
+    "main.js": "/ListaPrecios/static/js/main.d3e49284.js",
+    "static/media/loading.gif": "/ListaPrecios/static/media/loading.585c52a4f217700ba34a.gif",
+    "static/media/promo.png": "/ListaPrecios/static/media/promo.5e36a81bbd19e7c37e6d.png",
+    "static/media/newFondo.webp": "/ListaPrecios/static/media/newFondo.5e59fe1d306ea8a3e67e.webp",
     "static/media/google-logo.svg": "/ListaPrecios/static/media/google-logo.dcbc94051c15aba5972efc068e2cec23.svg",
     "static/media/netflix.svg": "/ListaPrecios/static/media/netflix.761423e16dd39b29c816916ff0417b67.svg",
-    "static/media/logo.svg": "/ListaPrecios/static/media/logo.98b19f46f187f4a6d9f6ddcba92aa734.svg",
+    "static/media/logo.svg": "/ListaPrecios/static/media/logo.a71eeb0923c2c03cfc33d92ea0863d9b.svg",
     "static/media/android.svg": "/ListaPrecios/static/media/android.0cfd7fe2594587d29723d6aa0cae8dc9.svg",
     "index.html": "/ListaPrecios/index.html",
     "static/media/cellphone.svg": "/ListaPrecios/static/media/cellphone.7f72ca966b856f9dea40d427cc0ba122.svg",
@@ -22,11 +22,11 @@
     "static/media/file-plus.svg": "/ListaPrecios/static/media/file-plus.d69f74b5fc67a0579ef0474558e02ac2.svg",
     "static/media/bateria.svg": "/ListaPrecios/static/media/bateria.257841ddd532689e5cdd935895c8e85b.svg",
     "static/media/peso.svg": "/ListaPrecios/static/media/peso.dfbe9e0f72f7f2c0e0e470696e831107.svg",
-    "main.ca48c9b8.css.map": "/ListaPrecios/static/css/main.ca48c9b8.css.map",
-    "main.95c40ed6.js.map": "/ListaPrecios/static/js/main.95c40ed6.js.map"
+    "main.3a945a0b.css.map": "/ListaPrecios/static/css/main.3a945a0b.css.map",
+    "main.d3e49284.js.map": "/ListaPrecios/static/js/main.d3e49284.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca48c9b8.css",
-    "static/js/main.95c40ed6.js"
+    "static/css/main.3a945a0b.css",
+    "static/js/main.d3e49284.js"
   ]
 }

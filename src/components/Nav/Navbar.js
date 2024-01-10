@@ -53,6 +53,7 @@ function Navbar({
     return `${nombres[0]}`;
   }
 
+
   const bienvenido = (<div className="nameContainer">
   <p className="text-center">Hola: <br /> {obtenerNombresCompletos(nameUser)}</p>
 </div>)

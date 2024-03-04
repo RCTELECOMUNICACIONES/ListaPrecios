@@ -124,7 +124,8 @@ function CoorUbi() {
         navigator.userAgent
       );
 
-      return isMobile ? MyMaps : GMaps;
+      //return isMobile ? MyMaps : GMaps;
+      return isMobile ? MyMaps : MyMaps;
     }
     let valorClave = chooseConstant();
     window.open(valorClave, "_blank");
@@ -137,9 +138,15 @@ function CoorUbi() {
       return formatoCoordenadas.test(texto);
     }
 
+    
+    let coordenadasEnviar2 = `https://builderwms.geodir.co/geoserver/capas_user/ows?REQUEST=GetFeatureInfo&SERVICE=WMS&SRS=EPSG%3A4326&VERSION=1.1.1&BBOX=${coordUnida.split(", ")[1].slice(0, 11)}1%2C${coordUnida.split(", ")[0].slice(0, 11)}1%2C${coordUnida.split(", ")[1].slice(0, 11)}%2C${coordUnida.split(", ")[0].slice(0, 11)}&HEIGHT=2&WIDTH=2&LAYERS=capas_user%3Aouluvakv3294&FEATURE_COUNT=10&QUERY_LAYERS=capas_user%3Aouluvakv3294&INFO_FORMAT=text%2Fjavascript&EXCEPTIONS=application%2Fvnd.ogc.se_xml&CQL_FILTERS=&X=1&Y=1&callback=parseResponse&_=1709516276714`
     let coordenadasEnviar = `https://apis.geodir.co/geofencing/geofencing/area?latlon=${coordUnida}&layer_area_id=eloggbda2669&key=051f80b9-caa0-4af5-83d8-fae4eef59952`
 
+    
+
     if (validarCoordenadas(coordUnida)) {
+      window.open(coordenadasEnviar2, '_blank');
+
       try {
         const responsec = await fetch(coordenadasEnviar);
         console.log(responsec)
@@ -158,6 +165,7 @@ function CoorUbi() {
       } catch (error) {
         console.log("Error al obtner Informacion del NODO y Cobertura:", error);
       }
+
     } else {
       setMostrarError(true)
     }

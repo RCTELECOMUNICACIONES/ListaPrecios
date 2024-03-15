@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ListaPrecios/static/css/main.8e7fd19a.css",
-    "main.js": "/ListaPrecios/static/js/main.b71e772f.js",
+    "main.js": "/ListaPrecios/static/js/main.939a0979.js",
     "static/media/loading.gif": "/ListaPrecios/static/media/loading.585c52a4f217700ba34a.gif",
     "static/media/promo.png": "/ListaPrecios/static/media/promo.5e36a81bbd19e7c37e6d.png",
     "static/media/logo.svg": "/ListaPrecios/static/media/logo.3c3b2b7fd04d673a402bb7df925c6692.svg",
@@ -23,10 +23,10 @@
     "static/media/bateria.svg": "/ListaPrecios/static/media/bateria.257841ddd532689e5cdd935895c8e85b.svg",
     "static/media/peso.svg": "/ListaPrecios/static/media/peso.dfbe9e0f72f7f2c0e0e470696e831107.svg",
     "main.8e7fd19a.css.map": "/ListaPrecios/static/css/main.8e7fd19a.css.map",
-    "main.b71e772f.js.map": "/ListaPrecios/static/js/main.b71e772f.js.map"
+    "main.939a0979.js.map": "/ListaPrecios/static/js/main.939a0979.js.map"
   },
   "entrypoints": [
     "static/css/main.8e7fd19a.css",
-    "static/js/main.b71e772f.js"
+    "static/js/main.939a0979.js"
   ]
 }
